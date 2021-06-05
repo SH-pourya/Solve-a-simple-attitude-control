@@ -13,7 +13,6 @@ double X_new[n] = {};
 double Y[n] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
 double XDOT[n] = {};
 
-double Y_temp[n];            // temp array for the ODE function output.
 double K1[n], K2[n], K3[n], K4[n];   // arrays for the Runge-Kutta intermediate points
 
 void setup() {
