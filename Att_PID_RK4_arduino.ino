@@ -5,8 +5,8 @@ double t = 0;               // current time
 double pi = 3.1415926536;
 double time_final = 20;
 /*
-  X[1] = phi ,  X[2] = theta , X[3] = psi , X[4] = VN , X[5] = VE , X[6] = VD
-  X[7] = La ,  X[8] = lo , X[9] = h , X[10] = p , X[11] = q , X[12] = r ,
+  
+  X[6] = omega_x ,  X[7] = omega_y , X[8] = omega_z , X[9] = phi , X[10] = theta , X[11] = psi ,
 */
 double X[n] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
 double X_new[n] = {};
